@@ -480,7 +480,7 @@ header {
     align-items: center;
 }
 
-.navbar-list:first-child .navbar-item:first-child {
+.navbar-item.active {
     background-color: #f2f2f2;
 }
 
@@ -567,9 +567,9 @@ header {
     display: none;
 }
 
-.container__header-btn .btn:first-child {
-    background-color: #030303;
-    color: var(--white-color);
+.btn.active {
+    background-color: #030303 !important;
+    color: var(--white-color) !important;
 }
 
 /* home product */
